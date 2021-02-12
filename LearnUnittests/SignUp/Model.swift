@@ -1,10 +1,3 @@
-//
-//  UserModel.swift
-//  LearnUnittests
-//
-//  Created by Gatuk Chattanon on 7/2/21.
-//
-
 import Foundation
 
 struct UserModel {
@@ -13,4 +6,13 @@ struct UserModel {
     let email: String
     let password: String
     let confirmedPassword: String
+}
+
+enum ResponseStatus: String {
+    case successful = "Successful"
+    case fail = "Fail"
+}
+
+struct SignUpResponseModel {
+    let status: ResponseStatus
 }

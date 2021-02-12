@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EEFFF4F25D6755D00A5CFA9 /* FizzBuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEFFF4E25D6755D00A5CFA9 /* FizzBuzzTests.swift */; };
 		2EF0EA0225CFE11B00717D61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0EA0125CFE11B00717D61 /* AppDelegate.swift */; };
 		2EF0EA0425CFE11B00717D61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0EA0325CFE11B00717D61 /* SceneDelegate.swift */; };
 		2EF0EA0625CFE11B00717D61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0EA0525CFE11B00717D61 /* ViewController.swift */; };
 		2EF0EA0925CFE11B00717D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF0EA0725CFE11B00717D61 /* Main.storyboard */; };
 		2EF0EA0B25CFE11C00717D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EF0EA0A25CFE11C00717D61 /* Assets.xcassets */; };
 		2EF0EA0E25CFE11C00717D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF0EA0C25CFE11C00717D61 /* LaunchScreen.storyboard */; };
-		2EF0EA1925CFE11D00717D61 /* LearnUnittestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0EA1825CFE11D00717D61 /* LearnUnittestsTests.swift */; };
 		2EF0EA2425CFE11D00717D61 /* LearnUnittestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0EA2325CFE11D00717D61 /* LearnUnittestsUITests.swift */; };
-		2EF0EA3525CFE28800717D61 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0EA3425CFE28800717D61 /* UserModel.swift */; };
+		2EF0EA3525CFE28800717D61 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0EA3425CFE28800717D61 /* Model.swift */; };
+		2EF0EA3D25CFE38300717D61 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0EA3C25CFE38300717D61 /* Presenter.swift */; };
+		2EF0EA4525CFE43700717D61 /* PresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0EA4425CFE43700717D61 /* PresenterTests.swift */; };
+		2EF0EA4D25D01F9000717D61 /* SignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0EA4C25D01F9000717D61 /* SignupService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EEFFF4E25D6755D00A5CFA9 /* FizzBuzzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTests.swift; sourceTree = "<group>"; };
 		2EF0E9FE25CFE11B00717D61 /* LearnUnittests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnUnittests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF0EA0125CFE11B00717D61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EF0EA0325CFE11B00717D61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,12 +49,14 @@
 		2EF0EA0D25CFE11C00717D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EF0EA0F25CFE11C00717D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EF0EA1425CFE11D00717D61 /* LearnUnittestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnUnittestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EF0EA1825CFE11D00717D61 /* LearnUnittestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnUnittestsTests.swift; sourceTree = "<group>"; };
 		2EF0EA1A25CFE11D00717D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EF0EA1F25CFE11D00717D61 /* LearnUnittestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnUnittestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF0EA2325CFE11D00717D61 /* LearnUnittestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnUnittestsUITests.swift; sourceTree = "<group>"; };
 		2EF0EA2525CFE11D00717D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2EF0EA3425CFE28800717D61 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		2EF0EA3425CFE28800717D61 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2EF0EA3C25CFE38300717D61 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		2EF0EA4425CFE43700717D61 /* PresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterTests.swift; sourceTree = "<group>"; };
+		2EF0EA4C25D01F9000717D61 /* SignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EEFFF4D25D6754C00A5CFA9 /* FizzBuzz */ = {
+			isa = PBXGroup;
+			children = (
+				2EEFFF4E25D6755D00A5CFA9 /* FizzBuzzTests.swift */,
+			);
+			path = FizzBuzz;
+			sourceTree = "<group>";
+		};
+		2EEFFF5625D679DF00A5CFA9 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				2EF0EA3425CFE28800717D61 /* Model.swift */,
+				2EF0EA3C25CFE38300717D61 /* Presenter.swift */,
+				2EF0EA4C25D01F9000717D61 /* SignupService.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 		2EF0E9F525CFE11B00717D61 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +125,7 @@
 		2EF0EA0025CFE11B00717D61 /* LearnUnittests */ = {
 			isa = PBXGroup;
 			children = (
+				2EEFFF5625D679DF00A5CFA9 /* SignUp */,
 				2EF0EA0125CFE11B00717D61 /* AppDelegate.swift */,
 				2EF0EA0325CFE11B00717D61 /* SceneDelegate.swift */,
 				2EF0EA0525CFE11B00717D61 /* ViewController.swift */,
@@ -108,7 +133,6 @@
 				2EF0EA0A25CFE11C00717D61 /* Assets.xcassets */,
 				2EF0EA0C25CFE11C00717D61 /* LaunchScreen.storyboard */,
 				2EF0EA0F25CFE11C00717D61 /* Info.plist */,
-				2EF0EA3425CFE28800717D61 /* UserModel.swift */,
 			);
 			path = LearnUnittests;
 			sourceTree = "<group>";
@@ -116,7 +140,8 @@
 		2EF0EA1725CFE11D00717D61 /* LearnUnittestsTests */ = {
 			isa = PBXGroup;
 			children = (
-				2EF0EA1825CFE11D00717D61 /* LearnUnittestsTests.swift */,
+				2EEFFF4D25D6754C00A5CFA9 /* FizzBuzz */,
+				2EF0EA4425CFE43700717D61 /* PresenterTests.swift */,
 				2EF0EA1A25CFE11D00717D61 /* Info.plist */,
 			);
 			path = LearnUnittestsTests;
@@ -201,6 +226,7 @@
 					};
 					2EF0EA1325CFE11D00717D61 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 						TestTargetID = 2EF0E9FD25CFE11B00717D61;
 					};
 					2EF0EA1E25CFE11D00717D61 = {
@@ -261,10 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF0EA4D25D01F9000717D61 /* SignupService.swift in Sources */,
 				2EF0EA0625CFE11B00717D61 /* ViewController.swift in Sources */,
 				2EF0EA0225CFE11B00717D61 /* AppDelegate.swift in Sources */,
-				2EF0EA3525CFE28800717D61 /* UserModel.swift in Sources */,
+				2EF0EA3525CFE28800717D61 /* Model.swift in Sources */,
 				2EF0EA0425CFE11B00717D61 /* SceneDelegate.swift in Sources */,
+				2EF0EA3D25CFE38300717D61 /* Presenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +300,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EF0EA1925CFE11D00717D61 /* LearnUnittestsTests.swift in Sources */,
+				2EF0EA4525CFE43700717D61 /* PresenterTests.swift in Sources */,
+				2EEFFF4F25D6755D00A5CFA9 /* FizzBuzzTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +505,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LearnUnittestsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
@@ -486,6 +516,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gatukgl.LearnUnittestsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnUnittests.app/LearnUnittests";
@@ -497,6 +528,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LearnUnittestsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
